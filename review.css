@@ -1,0 +1,66 @@
+/* Review Section Styling */
+.review {
+    padding: 5rem 10%;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.review .heading {
+    font-size: 3rem;
+    color: #444;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.review .heading span {
+    color: #ff7f7f;
+}
+
+.review .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.review .box {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 2rem);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review .box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.review .box img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.review .box h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+.review .box p {
+    font-size: 1.4rem;
+    color: #666;
+    margin: 1rem 0;
+    line-height: 1.8;
+}
+
+.review .stars i {
+    font-size: 1.6rem;
+    color: #fbc02d;
+    margin: 0 0.1rem;
+}
